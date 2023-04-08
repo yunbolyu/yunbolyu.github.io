@@ -1,5 +1,4 @@
 ---
-title: Yunbo Lyu's Publication
 layout: page
 icon: fas fa-archive
 order: 1
