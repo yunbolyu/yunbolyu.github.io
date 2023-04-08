@@ -1,5 +1,5 @@
 ---
-title: CHRONOS&#58 Time-Aware Zero-Shot Identification of Libraries from Vulnerability Reports
+title: CHRONOS:Time-Aware Zero-Shot Identification of Libraries from Vulnerability Reports
 date: 2022-12-09 08:51:00 +0800
 categories: [publication, '2023']
 tags: [zero-shot learning, library identification, unseen labels, extreme multi-label classification, vulnerability reports, ICSE 2023]     # TAG names should always be lowercase
