@@ -20,7 +20,7 @@ timezone:
 
 title: Yunbo Lyu # the main title
 
-tagline: A text-focused Jekyll theme # it will display as the sub-title
+tagline: Ph.d. student at Singapore Management University  # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
   A minimal, responsive and feature-rich Jekyll theme for technical writing.
@@ -29,16 +29,16 @@ description: >- # used by seo meta and the atom feed
 url: "https://yunbolyu.githu.github.io"
 
 github:
-  username: github_username # change to your github username
+  username: yunbolyu # change to your github username
 
 twitter:
-  username: twitter_username # change to your twitter username
+  username: Ra1nbow99 # change to your twitter username
 
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: your_full_name
-  email: example@domain.com # change to your email address
+  name: Yunbo Lyu
+  email: yunbolyu@smu.edu.sg # change to your email address
   links:
     # The first element serves as the copyright owner's link
     - https://twitter.com/username # change to your twitter homepage
