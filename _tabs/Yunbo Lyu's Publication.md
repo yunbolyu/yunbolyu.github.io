@@ -3,8 +3,6 @@ layout: page
 icon: fas fa-archive
 order: 1
 ---
-# Yunbo Lyu's Publication
-
 ## Conference Paper
 **<u>Yunbo Lyu</u>**, Thanh Le-Cong, Hong Jin Kang, Ratnadira Widyasari, Zhipeng Zhao, Xuan-Bach D. Le, Ming Li, David Lo. <em>"CHRONOS: Time-Aware Zero-Shot Identification of Libraries from Vulnerability Reports."</em> 2023 IEEE/ACM 45th International Conference on Software Engineering (ICSE). (12 pages, Technical Track.)
 
