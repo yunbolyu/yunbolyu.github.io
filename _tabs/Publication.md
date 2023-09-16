@@ -12,4 +12,4 @@ Jieke Shi, Junwu Zhu, Jian Li, Fang Liu and **<u>Yunbo Lyu</u>**. <em>"An Effici
 **<u>Yunbo Lyu</u>**, Junwu Zhu, Yi Jiang. <em>"Using EGDL to represent domain knowledge for imperfect information automated negotiations."</em> Journal of Ambient Intelligence and Humanized Computing (2020): 1-9.
 
 ## Preprints
-**<u>Yunbo Lyu</u>**, Hong Jin Kang, Ratnadira Widyasari, Julia Lawall, David Lo. <em>"Evaluating SZZ Implementations:An Empirical Study on the Linux Kernel."</em> Under review of IEEE Transactions on Software Engineering.
+**<u>Yunbo Lyu</u>**, Junwu Zhu, Yi Jiang. <em>"Evaluating SZZ Implementations: An Empirical Study on the Linux Kernel." </em> Journal of Ambient Intelligence and Humanized Computing (2020): 1-9.
