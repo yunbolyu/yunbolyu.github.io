@@ -12,4 +12,4 @@ Jieke Shi, Junwu Zhu, Jian Li, Fang Liu and **<u>Yunbo Lyu</u>**. <em>"An Effici
 **<u>Yunbo Lyu</u>**, Junwu Zhu, Yi Jiang. <em>"Using EGDL to represent domain knowledge for imperfect information automated negotiations."</em> Journal of Ambient Intelligence and Humanized Computing (2020): 1-9.
 
 ## Preprints
-**<u>Yunbo Lyu</u>**. <em>"ABCDE" </em> 2019 IEEE 23rd international conference on computer supported cooperative work in design (CSCWD).
+**<u>Yunbo Lyu</u>**. <em>"Evaluating SZZ Implementations: An Empirical Study on the Linux Kernel" </em> 2019 IEEE 23rd international conference on computer supported cooperative work in design (CSCWD).
