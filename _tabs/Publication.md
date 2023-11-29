@@ -14,7 +14,7 @@ Jieke Shi, Junwu Zhu, Jian Li, Fang Liu and **<u>Yunbo Lyu</u>**. <em>"An Effici
 ## Preprints
 **<u>Yunbo Lyu</u>**, Hong Jin Kang, Ratnadira Widyasari, Julia Lawall, David Lo. <em>"Evaluating SZZ Implementations: An Empirical Study on the Linux Kernel" </em> (Under major revision of IEEE Transactions on Software Engineering)
 
-Hong Jin Kang, **<u>Yunbo Lyu</u>**, Pattarakrit Rattanukul, Stefanus Agus Haryono, Truong Giang Nguyen, Chaiyong Ragkhitwetsagul, Corina Pasareanu, David Lo. "Active Learning-based Input Selection for Fuzzing Deep Learning Libraries" (Under review at TSE. This work found vulnerabilities leading to the assignment of 23 CVEs)
+Hong Jin Kang, **<u>Yunbo Lyu</u>**, Pattarakrit Rattanukul, Stefanus Agus Haryono, Truong Giang Nguyen, Chaiyong Ragkhitwetsagul, Corina Pasareanu, David Lo. <em>"Active Learning-based Input Selection for Fuzzing Deep Learning Libraries"</em> (Under review at TSE. This work found vulnerabilities leading to the assignment of 23 CVEs)
 
-Chengran Yang, Jiakun Liu, Bowen Xu, Christoph Treude, **<u>Yunbo Lyu</u>**, Junda He, Ming Li, David Lo. "APIDocBooster: An Extract-Then-Abstract Framework Leveraging Large Language Models for Augmenting API Documentation" (Under review at TOSEM.)
+Chengran Yang, Jiakun Liu, Bowen Xu, Christoph Treude, **<u>Yunbo Lyu</u>**, Junda He, Ming Li, David Lo. <em>"APIDocBooster: An Extract-Then-Abstract Framework Leveraging Large Language Models for Augmenting API Documentation"</em> (Under review at TOSEM.)
 
