@@ -6,6 +6,8 @@ gem "jekyll-theme-chirpy", "~> 7.2", ">= 7.2.4"
 gem 'csv'
 gem 'logger'
 
+bundle install
+
 gem "html-proofer", "~> 5.0", group: :test
 
 platforms :mingw, :x64_mingw, :mswin, :jruby do
