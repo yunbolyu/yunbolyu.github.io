@@ -28,7 +28,7 @@ jobs:
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v3
         with:
           fetch-depth: 0
           # submodules: true
@@ -37,7 +37,7 @@ jobs:
 
       - name: Setup Pages
         id: pages
-        uses: actions/configure-pages@v4
+        uses: actions/configure-pages@v3
 
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
@@ -54,8 +54,16 @@ jobs:
         run: |
           bundle exec htmlproofer _site --disable-external --checks script,img,links --allow-hash-href
 
+      # 在这里添加一个调试步骤来检查文件是否存在
+      - name: Debug
+        run: |
+          echo "文件列表："
+          ls -la "_site${{ steps.pages.outputs.base_path }}"
+          echo "目录结构："
+          find "_site${{ steps.pages.outputs.base_path }}" -type f | wc -l
+
       - name: Upload site artifact
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v1
         with:
           path: "_site${{ steps.pages.outputs.base_path }}"
 
@@ -68,4 +76,4 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v2
+        uses: actions/deploy-pages@v1
