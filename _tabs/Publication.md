@@ -1,4 +1,8 @@
-# Yunbo Lyu - Publications
+---
+layout: page
+icon: fas fa-archive
+order: 1
+---
 
 <style>
 .conference-papers {
@@ -75,6 +79,6 @@
 <li><span class="author-highlight">Yunbo Lyu</span>, Zhou Yang, Yuqing Niu, Jing Jiang, David Lo. <span class="paper-title">"Do Existing Testing Tools Really Uncover Gender Bias in Text-to-Image Models?"</span></li>
 <li>Zhou Yang, Zhensu Sun, <span class="author-highlight">Yunbo Lyu</span>, Terry Zhuo Yue, Premkumar Devanbu, David Lo. <span class="paper-title">Robustness, security, privacy, explainability, efficiency, and usability of large language models for code.</span></li>
 <li>Hong Jin Kang, <span class="author-highlight">Yunbo Lyu</span>, Pattarakrit Rattanukul, Stefanus Agus Haryono, Truong Giang Nguyen, Chaiyong Ragkhitwetsagul, Corina Pasareanu, David Lo. <span class="paper-title">"Active Learning-based Input Selection for Fuzzing Deep Learning Libraries"</span> (This work found vulnerabilities leading to the assignment of 23 CVEs)</li>
-<li>Chengran Yang, Jiakun Liu, Bowen Xu, Christoph Treude, <span class="author-highlight">Yunbo Lyu</span>, Junda He, Ming Li, David Lo. <span class="paper-title">"APIDocBooster: An Extract-Then-Abstract Framework Leveraging Large Language Models for Augmenting API Documentation"</span> </li>
+<li>Chengran Yang, Jiakun Liu, Bowen Xu, Christoph Treude, <span class="author-highlight">Yunbo Lyu</span>, Junda He, Ming Li, David Lo. <span class="paper-title">"APIDocBooster: An Extract-Then-Abstract Framework Leveraging Large Language Models for Augmenting API Documentation"</span> (Under review at ICSME.)</li>
 <li>Xin Zhou, Martin Weyssow, Ratnadira Widyasari, Ting Zhang, Junda He, <span class="author-highlight">Yunbo Lyu</span>, Jianming Chang, Beiqi Zhang, Dan Huang, David Lo. <span class="paper-title">"LessLeak-Bench: A First Investigation of Data Leakage in LLMs Across 83 Software Engineering Benchmarks."</span> (Under review at TOSEM.)</li>
 </ul>
