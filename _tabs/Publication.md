@@ -65,6 +65,7 @@ order: 1
 
 ## Conference Papers
 <ul class="conference-papers">
+<li>Alessio Bucaioni, Martin Weyssow, Junda He, <span class="author-highlight">Yunbo Lyu</span>, David Lo. <span class="paper-title">"Artificial Intelligence for Software Architecture: Literature Review and the Road Ahead"</span> FSE 2025 - 2030 Software Engineering Workshop. (11 pages)</li>
 <li>Alessio Bucaioni, Martin Weyssow, Junda He, <span class="author-highlight">Yunbo Lyu</span>, David Lo. <span class="paper-title">"A Functional Software Reference Architecture for LLM-Integrated Systems"</span> 2025 IEEE 22nd International Conference on Software Architecture (ICSA). (5 pages, New and Emerging Ideas Track.)</li>
 <li><span class="author-highlight">Yunbo Lyu</span>, Thanh Le-Cong, Hong Jin Kang, Ratnadira Widyasari, Zhipeng Zhao, Xuan-Bach D. Le, Ming Li, David Lo. <span class="paper-title">"CHRONOS: Time-Aware Zero-Shot Identification of Libraries from Vulnerability Reports"</span> 2023 IEEE/ACM 45th International Conference on Software Engineering (ICSE). (12 pages, Technical Track.)</li>
 </ul>
