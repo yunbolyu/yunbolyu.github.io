@@ -72,7 +72,7 @@ order: 1
 
 ## Journal Article
 <ul class="journal-articles">
-<li><span class="author-highlight">Yunbo Lyu</span>, Hong Jin Kang, Ratnadira Widyasari, Julia Lawall, David Lo. <span class="paper-title">"Evaluating SZZ Implementations: An Empirical Study on the Linux Kernel"</span> IEEE Transactions on Software Engineering</li>
+<li><span class="author-highlight">Yunbo Lyu</span>, Hong Jin Kang, Ratnadira Widyasari, Julia Lawall, David Lo. <span class="paper-title">"Evaluating SZZ Implementations: An Empirical Study on the Linux Kernel"</span> IEEE Transactions on Software Engineering, FSE 2025 Journal-First</li>
 </ul>
 
 ## Preprints
