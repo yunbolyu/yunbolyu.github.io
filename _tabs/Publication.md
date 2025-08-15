@@ -80,7 +80,8 @@ order: 1
 
 ## Preprints
 <ul class="preprints">
+<li>Jianming Chang, Jieke Shi, <span class="author-highlight">Yunbo Lyu</span>, Xin Zhou, Lulu Wang, Zhou Yang, Bixin Li, David Lo. <span class="paper-title">"SLICEMATE: Accurate and Scalable Static Program Slicing via LLM-Powered Agents."</span> (Under review)</li>
+<li>Xin Zhou, Martin Weyssow, Ratnadira Widyasari, Ting Zhang, Junda He, <span class="author-highlight">Yunbo Lyu</span>, Jianming Chang, Beiqi Zhang, Dan Huang, David Lo. <span class="paper-title">"LessLeak-Bench: A First Investigation of Data Leakage in LLMs Across 83 Software Engineering Benchmarks."</span> (Under review at TOSEM.)</li>
 <li>Zhou Yang, Zhensu Sun, <span class="author-highlight">Yunbo Lyu</span>, Terry Zhuo Yue, Premkumar Devanbu, David Lo. <span class="paper-title">Robustness, security, privacy, explainability, efficiency, and usability of large language models for code.</span></li>
 <li>Hong Jin Kang, <span class="author-highlight">Yunbo Lyu</span>, Pattarakrit Rattanukul, Stefanus Agus Haryono, Truong Giang Nguyen, Chaiyong Ragkhitwetsagul, Corina Pasareanu, David Lo. <span class="paper-title">"Active Learning-based Input Selection for Fuzzing Deep Learning Libraries"</span> (This work found vulnerabilities leading to the assignment of 23 CVEs)</li>
-<li>Xin Zhou, Martin Weyssow, Ratnadira Widyasari, Ting Zhang, Junda He, <span class="author-highlight">Yunbo Lyu</span>, Jianming Chang, Beiqi Zhang, Dan Huang, David Lo. <span class="paper-title">"LessLeak-Bench: A First Investigation of Data Leakage in LLMs Across 83 Software Engineering Benchmarks."</span> (Under review at TOSEM.)</li>
 </ul>
