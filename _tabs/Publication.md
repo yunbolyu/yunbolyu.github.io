@@ -65,11 +65,12 @@ order: 1
 
 ## Conference Papers
 <ul class="conference-papers">
+<li><span class="author-highlight">Yunbo Lyu</span>, Zhou Yang, Jieke Shi, Jianming Chang, Yue Liu, David Lo. <span class="paper-title">"“My productivity is boosted, but ...” Demystifying Users' Perception on AI Coding Assistants"</span> 2025 40th IEEE/ACM International Conference on Automated Software Engineering (ASE). (13 pages, Research Papers)</li>
 <li><span class="author-highlight">Yunbo Lyu</span>, Zhou Yang, Yuqing Niu, Jing Jiang, David Lo. <span class="paper-title">"Do Existing Testing Tools Really Uncover Gender Bias in Text-to-Image Models?"</span> 2025 33rd ACM International Conference on Multimedia (ACMMM). (10 pages, Regular Papers)</li>
 <li>Chengran Yang, Jiakun Liu, Bowen Xu, Christoph Treude, <span class="author-highlight">Yunbo Lyu</span>, Junda He, Ming Li, David Lo. <span class="paper-title">"APIDocBooster: An Extract-Then-Abstract Framework Leveraging Large Language Models for Augmenting API Documentation"</span> 2025 International Conference on Software Maintenance and Evolution (ICSME). (12 pages, Research Papers Track)</li>
 <li>Alessio Bucaioni, Martin Weyssow, Junda He, <span class="author-highlight">Yunbo Lyu</span>, David Lo. <span class="paper-title">"Artificial Intelligence for Software Architecture: Literature Review and the Road Ahead"</span> FSE 2025 - 2030 Software Engineering Workshop. (11 pages)</li>
 <li>Alessio Bucaioni, Martin Weyssow, Junda He, <span class="author-highlight">Yunbo Lyu</span>, David Lo. <span class="paper-title">"A Functional Software Reference Architecture for LLM-Integrated Systems"</span> 2025 IEEE 22nd International Conference on Software Architecture (ICSA). (5 pages, New and Emerging Ideas Track.)</li>
-<li><span class="author-highlight">Yunbo Lyu</span>, Thanh Le-Cong, Hong Jin Kang, Ratnadira Widyasari, Zhipeng Zhao, Xuan-Bach D. Le, Ming Li, David Lo. <span class="paper-title">"CHRONOS: Time-Aware Zero-Shot Identification of Libraries from Vulnerability Reports"</span> 2023 IEEE/ACM 45th International Conference on Software Engineering (ICSE). (12 pages, Technical Track.)</li>
+<li><span class="author-highlight">Yunbo Lyu</span>, Thanh Le-Cong, Hong Jin Kang, Ratnadira Widyasari, Zhipeng Zhao, Xuan-Bach D. Le, Ming Li, David Lo. <span class="paper-title">"CHRONOS: Time-Aware Zero-Shot Identification of Libraries from Vulnerability Reports"</span> 2023 IEEE/ACM 45th International Conference on Software Engineering (ICSE). (13 pages, Technical Track.)</li>
 </ul>
 
 ## Journal Article
