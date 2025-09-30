@@ -76,6 +76,8 @@ order: 1
 
 ## Preprints
 <ul class="preprints">
+<li>Yue Liu, Yanjie Zhao, <span class="author-highlight">Yunbo Lyu</span>, Ting Zhang, Haoyu Wang, David Lo. <span class="paper-title">""Your AI, My Shell": Demystifying Prompt Injection Attacks on Agentic AI Coding Editors."</span> (Under review)</li> 
+<li>Junkai Chen, Huihui Huang, <span class="author-highlight">Yunbo Lyu</span>, Junwen An, Jieke Shi, Chengran Yang, Ting Zhang, Haoye Tian, Yikun Li, Zhenhao Li, Xin Zhou, Xing Hu, David Lo. <span class="paper-title">"SecureAgentBench: Benchmarking Secure Code Generation under Realistic Vulnerability Scenarios"</span> (Under review)</li>
 <li>Jianming Chang, Jieke Shi, <span class="author-highlight">Yunbo Lyu</span>, Xin Zhou, Lulu Wang, Zhou Yang, Bixin Li, David Lo. <span class="paper-title">"SLICEMATE: Accurate and Scalable Static Program Slicing via LLM-Powered Agents."</span> (Under review)</li>
 <li>Xin Zhou, Martin Weyssow, Ratnadira Widyasari, Ting Zhang, Junda He, <span class="author-highlight">Yunbo Lyu</span>, Jianming Chang, Beiqi Zhang, Dan Huang, David Lo. <span class="paper-title">"LessLeak-Bench: A First Investigation of Data Leakage in LLMs Across 83 Software Engineering Benchmarks."</span> (Under review at TOSEM.)</li>
 <li>Zhou Yang, Zhensu Sun, <span class="author-highlight">Yunbo Lyu</span>, Terry Zhuo Yue, Premkumar Devanbu, David Lo. <span class="paper-title">Robustness, security, privacy, explainability, efficiency, and usability of large language models for code.</span></li>
