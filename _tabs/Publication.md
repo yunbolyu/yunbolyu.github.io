@@ -63,6 +63,8 @@ order: 1
 }
 </style>
 
+* indicates corresponding author.
+
 ## Peer-Reviewed Papers
 <ul class="conference-papers">
 <li><span class="author-highlight">Yunbo Lyu</span>, Zhou Yang, Jieke Shi, Jianming Chang, Yue Liu, David Lo. <span class="paper-title">"“My productivity is boosted, but ...” Demystifying Users' Perception on AI Coding Assistants"</span> 40th IEEE/ACM International Conference on Automated Software Engineering (ASE 2025). (13 pages, Research Papers, 🏆 ACM SIGSOFT Distinguished Paper Award)</li>
@@ -70,6 +72,7 @@ order: 1
 <li><span class="author-highlight">Yunbo Lyu</span>, Hong Jin Kang, Ratnadira Widyasari, Julia Lawall, David Lo. <span class="paper-title">"Evaluating SZZ Implementations: An Empirical Study on the Linux Kernel"</span> IEEE Transactions on Software Engineering (TSE), FSE 2025 Journal-First</li>
 <li><span class="author-highlight">Yunbo Lyu</span>, Thanh Le-Cong, Hong Jin Kang, Ratnadira Widyasari, Zhipeng Zhao, Xuan-Bach D. Le, Ming Li, David Lo. <span class="paper-title">"CHRONOS: Time-Aware Zero-Shot Identification of Libraries from Vulnerability Reports"</span> 45th IEEE/ACM International Conference on Software Engineering (ICSE 2023). (13 pages, Technical Track.)</li>
 <li>Yuqing Niu, Jieke Shi, Ruidong Han, Ye Liu, Chengyan Ma, <span class="author-highlight">Yunbo Lyu</span>, David Lo. <span class="paper-title">"What You Trust Is Insecure: Demystifying How Developers (Mis)Use Trusted Execution Environments in Practice"</span> 33rd edition of the IEEE International Conference on Software Analysis, Evolution, and Reengineering (SANER 2026). (13 pages, Research Track, 🏆 IEEE Computer Society TCSE Distinguished Paper Award)</li>
+<li>Chenyu Wang, Zhou Yang, <span class="author-highlight">Yunbo Lyu</span>*, Ze Shi Li, Daniela Damian, David Lo. <span class="paper-title">"Industry Practitioners’ Perspectives on AI Model Quality: Perceptions, Challenges, and Solutions"</span> International Conference on Evaluation and Assessment in Software Engineering (EASE 2026). (13 pages, Research Papers)</li>
 <li>Chengran Yang, Jiakun Liu, Bowen Xu, Christoph Treude, <span class="author-highlight">Yunbo Lyu</span>, Junda He, Ming Li, David Lo. <span class="paper-title">"APIDocBooster: An Extract-Then-Abstract Framework Leveraging Large Language Models for Augmenting API Documentation"</span> International Conference on Software Maintenance and Evolution (ICSME 2025). (12 pages, Research Papers Track)</li>
 <li>Alessio Bucaioni, Martin Weyssow, Junda He, <span class="author-highlight">Yunbo Lyu</span>, David Lo. <span class="paper-title">"Artificial Intelligence for Software Architecture: Literature Review and the Road Ahead"</span> FSE 2025 - 2030 Software Engineering Workshop. (11 pages)</li>
 <li>Alessio Bucaioni, Martin Weyssow, Junda He, <span class="author-highlight">Yunbo Lyu</span>, David Lo. <span class="paper-title">"A Functional Software Reference Architecture for LLM-Integrated Systems"</span> 2025 IEEE 22nd International Conference on Software Architecture (ICSA 2025). (5 pages, New and Emerging Ideas Track.)</li>
