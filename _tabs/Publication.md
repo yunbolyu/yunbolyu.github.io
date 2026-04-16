@@ -63,7 +63,7 @@ order: 1
 }
 </style>
 
-* indicates corresponding author.
+\* indicates corresponding author.
 
 ## Peer-Reviewed Papers
 <ul class="conference-papers">
@@ -72,6 +72,8 @@ order: 1
 <li><span class="author-highlight">Yunbo Lyu</span>, Hong Jin Kang, Ratnadira Widyasari, Julia Lawall, David Lo. <span class="paper-title">"Evaluating SZZ Implementations: An Empirical Study on the Linux Kernel"</span> IEEE Transactions on Software Engineering (TSE), FSE 2025 Journal-First</li>
 <li><span class="author-highlight">Yunbo Lyu</span>, Thanh Le-Cong, Hong Jin Kang, Ratnadira Widyasari, Zhipeng Zhao, Xuan-Bach D. Le, Ming Li, David Lo. <span class="paper-title">"CHRONOS: Time-Aware Zero-Shot Identification of Libraries from Vulnerability Reports"</span> 45th IEEE/ACM International Conference on Software Engineering (ICSE 2023). (13 pages, Technical Track.)</li>
 <li>Yuqing Niu, Jieke Shi, Ruidong Han, Ye Liu, Chengyan Ma, <span class="author-highlight">Yunbo Lyu</span>, David Lo. <span class="paper-title">"What You Trust Is Insecure: Demystifying How Developers (Mis)Use Trusted Execution Environments in Practice"</span> 33rd edition of the IEEE International Conference on Software Analysis, Evolution, and Reengineering (SANER 2026). (13 pages, Research Track, 🏆 IEEE Computer Society TCSE Distinguished Paper Award)</li>
+<li>Junkai Chen, Huihui Huang, <span class="author-highlight">Yunbo Lyu</span>, Junwen An, Jieke Shi, Chengran Yang, Ting Zhang, Haoye Tian, Yikun Li, Zhenhao Li, Xin Zhou, Xing Hu, David Lo. <span class="paper-title">"SecureAgentBench: Benchmarking Secure Code Generation under Realistic Vulnerability Scenarios."</span> The 64th Annual Meeting of the Association for Computational Linguistics (ACL 2026). (Main)</li>
+<li>Bo Wang, Yueyang Chen, Jieke Shi, Minghui Li, <span class="author-highlight">Yunbo Lyu</span>, Yinan Wu, Youfang Lin, Zhou Yang. <span class="paper-title">"Hidden Licensing Risks in the LLMware Ecosystem"</span> 35th ACM SIGSOFT International Symposium on Software Testing and Analysis (ISSTA 2026). (13 pages, Research Papers)</li>
 <li>Chenyu Wang, Zhou Yang, <span class="author-highlight">Yunbo Lyu</span>*, Ze Shi Li, Daniela Damian, David Lo. <span class="paper-title">"Industry Practitioners’ Perspectives on AI Model Quality: Perceptions, Challenges, and Solutions"</span> International Conference on Evaluation and Assessment in Software Engineering (EASE 2026). (13 pages, Research Papers)</li>
 <li>Chengran Yang, Jiakun Liu, Bowen Xu, Christoph Treude, <span class="author-highlight">Yunbo Lyu</span>, Junda He, Ming Li, David Lo. <span class="paper-title">"APIDocBooster: An Extract-Then-Abstract Framework Leveraging Large Language Models for Augmenting API Documentation"</span> International Conference on Software Maintenance and Evolution (ICSME 2025). (12 pages, Research Papers Track)</li>
 <li>Alessio Bucaioni, Martin Weyssow, Junda He, <span class="author-highlight">Yunbo Lyu</span>, David Lo. <span class="paper-title">"Artificial Intelligence for Software Architecture: Literature Review and the Road Ahead"</span> FSE 2025 - 2030 Software Engineering Workshop. (11 pages)</li>
@@ -80,7 +82,7 @@ order: 1
 
 ## Preprints
 <ul class="preprints">
-<li>Yue Liu, Yanjie Zhao, <span class="author-highlight">Yunbo Lyu</span>, Ting Zhang, Haoyu Wang, David Lo. <span class="paper-title">""Your AI, My Shell": Demystifying Prompt Injection Attacks on Agentic AI Coding Editors."</span> (Under review)</li> 
+<li>Yue Liu, Yanjie Zhao, <span class="author-highlight">Yunbo Lyu</span>*, Ting Zhang, Haoyu Wang, David Lo. <span class="paper-title">""Your AI, My Shell": Demystifying Prompt Injection Attacks on Agentic AI Coding Editors."</span> (Under review, TSE)</li> 
 <li>Junkai Chen, Huihui Huang, <span class="author-highlight">Yunbo Lyu</span>, Junwen An, Jieke Shi, Chengran Yang, Ting Zhang, Haoye Tian, Yikun Li, Zhenhao Li, Xin Zhou, Xing Hu, David Lo. <span class="paper-title">"SecureAgentBench: Benchmarking Secure Code Generation under Realistic Vulnerability Scenarios."</span> (Under review)</li>
 <li>Jianming Chang, Jieke Shi, <span class="author-highlight">Yunbo Lyu</span>, Xin Zhou, Lulu Wang, Zhou Yang, Bixin Li, David Lo. <span class="paper-title">"SLICEMATE: Accurate and Scalable Static Program Slicing via LLM-Powered Agents."</span> (Under review)</li>
 <li>Xin Zhou, Martin Weyssow, Ratnadira Widyasari, Ting Zhang, Junda He, <span class="author-highlight">Yunbo Lyu</span>, Jianming Chang, Beiqi Zhang, Dan Huang, David Lo. <span class="paper-title">"LessLeak-Bench: A First Investigation of Data Leakage in LLMs Across 83 Software Engineering Benchmarks."</span> (Under review at TOSEM.)</li>
