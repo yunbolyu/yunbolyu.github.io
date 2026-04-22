@@ -1,45 +1,43 @@
-# Chirpy Starter [![Gem Version](https://img.shields.io/gem/v/jekyll-theme-chirpy)](https://rubygems.org/gems/jekyll-theme-chirpy) [![GitHub license](https://img.shields.io/github/license/cotes2020/chirpy-starter.svg?color=blue)][mit]
+# yunbolyu.github.io
 
-When installing the [**Chirpy**][chirpy] theme through [RubyGems.org][gem], Jekyll can only read files in the folders `/_data`, `/_layouts`, `/_includes`, `/_sass` and `/assets`, as well as a small part of options of the `/_config.yml` file from the theme's gem. If you have ever installed this theme gem, you can use the command `bundle info --path jekyll-theme-chirpy` to locate these files.
+Personal academic homepage of [Yunbo Lyu](https://yunbolyu.github.io), Ph.D. candidate at Singapore Management University.
 
-The Jekyll team claims that this is to leave the ball in the user’s court, but this also results in users not being able to enjoy the out-of-the-box experience when using feature-rich themes.
+Pure static HTML + CSS — no Jekyll, no build step. Design inspired by [Jon Barron](https://jonbarron.info/).
 
-To fully use all the features of **Chirpy**, you need to copy the other critical files from the theme's gem to your Jekyll site. The following is a list of targets:
+## Preview locally
 
-```shell
+```bash
+python3 -m http.server 8000
+```
+
+Open http://localhost:8000 in a browser. Any edits to `index.html` show up on refresh.
+
+Alternatively, double-click `index.html` (relative paths for images / PDFs still resolve as long as the files sit alongside it).
+
+## Deploy
+
+Push to `main` — GitHub Pages serves `index.html` directly. `.nojekyll` is present so no Jekyll processing happens.
+
+## File layout
+
+```
 .
-├── _config.yml
-├── _plugins
-├── _tabs
-└── index.html
+├── index.html          # the whole site: bio, news, publications, talks, awards, services
+├── index_old.html      # the previous (Chirpy) homepage, kept as backup
+├── yunbo_new.png       # profile photo
+├── smu.png             # SMU logo (nav bar)
+├── talk/               # slide PDFs linked from Invited Talks
+├── .nojekyll           # disables GitHub Pages Jekyll processing
+└── _config.yml, _tabs/, Gemfile, ...   # leftover Chirpy scaffolding — not used
 ```
 
-To save you time, and also in case you lose some files while copying, we extract those files/configurations of the latest version of the **Chirpy** theme and the [CD][CD] workflow to here, so that you can start writing in minutes.
+## Editing tips
 
-## Prerequisites
-
-Follow the instructions in the [Jekyll Docs](https://jekyllrb.com/docs/installation/) to complete the installation of the basic environment. [Git](https://git-scm.com/) also needs to be installed.
-
-## Installation
-
-Sign in to GitHub and [**use this template**][use-template] to generate a brand new repository and name it `USERNAME.github.io`, where `USERNAME` represents your GitHub username.
-
-Then clone it to your local machine and run:
-
-```
-$ bundle
-```
-
-## Usage
-
-Please see the [theme's docs](https://github.com/cotes2020/jekyll-theme-chirpy#documentation).
+- **Add a publication**: append a `<li>` in the `Publications` `<ol class="pubs">` in `index.html`. The numbering (`1.`, `2.`, …) continues automatically via CSS counters across both Publications and Preprints.
+- **Add a news item**: add a `<li>` to `<ul class="news">`. The top 5 are shown by default; older items go inside `<details class="news-more">` which collapses by default.
+- **Change the photo**: replace `yunbo_new.png`, or tweak `background-position` / `background-size` on the `.profile` div (HEADER section) to re-crop.
+- **Nav width / colors / fonts**: all CSS lives inline in the `<style>` block at the top of `index.html`.
 
 ## License
 
-This work is published under [MIT][mit] License.
-
-[gem]: https://rubygems.org/gems/jekyll-theme-chirpy
-[chirpy]: https://github.com/cotes2020/jekyll-theme-chirpy/
-[use-template]: https://github.com/cotes2020/chirpy-starter/generate
-[CD]: https://en.wikipedia.org/wiki/Continuous_deployment
-[mit]: https://github.com/cotes2020/chirpy-starter/blob/master/LICENSE
+Content (text, photos) © Yunbo Lyu. Feel free to use the HTML/CSS structure as a template for your own page.
