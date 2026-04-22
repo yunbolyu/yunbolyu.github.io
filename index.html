@@ -1,158 +1,486 @@
----
-layout: page
-icon: fas fa-bolt
-order: 0
----
-<table class="imgtable" width="100%">
-    <tr>
-        <td>
-            <img src="yunbo_new.png" alt="yunbo_new.png" border="0" width="150" />&nbsp;
-        </td>
-        <td align="left">
-            <p><b>
-                    <font size="+3" face="STKaiti">吕允博</font> &emsp;&emsp;
-                    <font size="+2" face="Georgia"> Yunbo LYU</font>
-                </b><br />
-                Ph.D. candidate, <a href="https://soarsmu.github.io/">SOAR Group</a><br />
-                <a href="https://scis.smu.edu.sg/">School of Computing and Information Systems</a> <br />
-                <a href="https://www.smu.edu.sg/">Singapore Management University</a>, Singapore<br /><br />
-                <!-- Supervisor: Professor <a href="http://www.mysmu.edu/faculty/davidlo/" target="_blank"> David Lo</a>
-                <br /><br /> -->
-                Email: yunbolyu@smu.edu.sg <br />
-                [<a href="https://scholar.google.com/citations?user=OnSWwOwAAAAJ&hl=en&oi=ao" target="_blank">Google
-                    Scholar</a>]
-                [<a href="https://dblp.org/pid/337/9471.html" target="_blank">DBLP</a>]
-                [<a href="https://www.linkedin.com/in/yunbo-lyu-b6400824b/" target="_blank">Linkedin</a>]
-            </p>
-        </td>
-        <td valign="top" width="179">
-            <p align="center"><a href="https://www.smu.edu.sg/" target="_blank"><img height="85" src="smu.png"
-                        width="179" border="0" align="top"></a></p><br />
-            <p align="center"><a href="https://soarsmu.github.io/" target="_blank"><img height="120" src="soar-logo.png"
-                        width="100" border="0"></a></p>
-        </td>
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>Yunbo Lyu</title>
+  <meta name="author" content="Yunbo Lyu">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/png" href="yunbo_new.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+  <style>
+    a { color: #1772d0; text-decoration: none; }
+    a:focus, a:hover { color: #f09228; text-decoration: none; }
+
+    body, td, th, tr, p, a, li {
+      font-family: 'Lato', Verdana, Helvetica, sans-serif;
+      font-size: 14px;
+    }
+    body { background: #fff; color: #000; margin: 0; counter-reset: pub; }
+
+    strong {
+      font-family: 'Lato', Verdana, Helvetica, sans-serif;
+      font-size: 14px;
+    }
+
+    h2 {
+      margin: 0;
+      font-weight: normal;
+      font-family: 'Lato', Verdana, Helvetica, sans-serif;
+      font-size: 22px;
+    }
+    h3 {
+      margin: 22px 0 0 0;
+      font-weight: normal;
+      font-family: 'Lato', Verdana, Helvetica, sans-serif;
+      font-size: 17px;
+      color: #444;
+    }
+
+    .name {
+      padding-top: 20px;
+      margin: 0;
+      font-family: 'Lato', Verdana, Helvetica, sans-serif;
+      font-size: 32px;
+    }
+    .name .cn {
+      font-family: 'STKaiti', 'Kaiti SC', 'KaiTi', 'BiauKai', serif;
+      font-size: 26px;
+      color: #555;
+      margin-left: 12px;
+      font-weight: normal;
+    }
+
+    .papertitle {
+      font-family: 'Lato', Verdana, Helvetica, sans-serif;
+      font-size: 14px;
+      font-weight: 700;
+    }
+
+    span.highlight { background-color: #ffffd0; }
+
+    ol.pubs {
+      list-style: none;
+      padding: 0 0 0 60px;
+      margin: 8px 0 0 0;
+    }
+    ol.pubs > li {
+      counter-increment: pub;
+      position: relative;
+      padding: 6px 0;
+      line-height: 1.55;
+    }
+    ol.pubs > li::before {
+      content: counter(pub) ".";
+      position: absolute;
+      left: -42px;
+      width: 26px;
+      text-align: right;
+      top: 6px;
+      color: #888;
+      font-variant-numeric: tabular-nums;
+    }
+    ol.pubs .me { font-weight: 700; }
+    ol.pubs .award { color: #b8860b; font-weight: 700; }
+
+    ul.plain { list-style: none; padding-left: 40px; margin: 8px 0 0 0; }
+    ul.plain li { margin-bottom: 6px; line-height: 1.55; }
+
+    ul.svc { list-style: none; padding-left: 40px; margin: 6px 0 0 0; }
+    ul.svc li { margin-bottom: 3px; line-height: 1.55; }
+
+    ul.news {
+      list-style: none;
+      padding-left: 40px;
+      margin: 8px 0 0 0;
+    }
+    ul.news li {
+      margin-bottom: 4px;
+      line-height: 1.55;
+    }
+    .news-date {
+      color: #888;
+      font-variant-numeric: tabular-nums;
+      margin-right: 4px;
+    }
+    details.news-more { margin-top: 4px; }
+    details.news-more > summary {
+      cursor: pointer;
+      color: #1772d0;
+      list-style: none;
+      display: inline-block;
+      padding: 2px 0 2px 40px;
+    }
+    details.news-more > summary::-webkit-details-marker { display: none; }
+    details.news-more > summary:hover { color: #f09228; }
+    details.news-more > summary::before { content: "▸ Show older news"; }
+    details.news-more[open] > summary::before { content: "▾ Hide older news"; }
+
+    .legend { color: #666; margin: 6px 0 2px; }
+
+    nav.topbar {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: #fff;
+      border-bottom: 1px solid #e5e5e5;
+    }
+    nav.topbar .inner {
+      max-width: 850px;
+      margin: 0 auto;
+      padding: 6px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    nav.topbar img.logo { height: 28px; width: auto; display: block; }
+    nav.topbar ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      gap: 22px;
+      font-size: 14px;
+    }
+    nav.topbar ul a { color: #333; }
+    nav.topbar ul a:hover { color: #f09228; }
+
+    /* give anchored sections some offset so sticky nav doesn't cover headings */
+    h2[id] { scroll-margin-top: 56px; }
+
+    @media (max-width: 640px) {
+      /* tighter nav: smaller gaps, allow wrap if really narrow */
+      nav.topbar .inner { padding: 6px 12px; gap: 10px; }
+      nav.topbar img.logo { height: 22px; }
+      nav.topbar ul { gap: 14px; font-size: 13px; flex-wrap: wrap; justify-content: flex-end; }
+
+      /* header: stack photo above bio, shrink photo */
+      table td[style*="width:63%"],
+      table td[style*="width:37%"] {
+        display: block !important;
+        width: 100% !important;
+        max-width: 100% !important;
+        padding: 8px 0 !important;
+      }
+      .name { font-size: 26px; padding-top: 10px; text-align: center; }
+      .name .cn { font-size: 20px; }
+      td[style*="width:37%"] > div { width: 160px !important; }
+
+      /* section tables: less side padding */
+      td[style*="padding:16px"] { padding: 12px 4px !important; }
+
+      /* lists: smaller indent on phones */
+      ul.news, ul.plain, ul.svc, details.news-more > summary { padding-left: 18px !important; }
+      ol.pubs { padding-left: 40px !important; }
+      ol.pubs > li::before { left: -30px; width: 22px; }
+
+      /* pub number gap */
+      h2 { font-size: 20px; }
+      h3 { font-size: 16px; }
+    }
+  </style>
+</head>
+
+<body>
+
+<nav class="topbar">
+  <div class="inner">
+    <a href="https://www.smu.edu.sg/" target="_blank" rel="noopener">
+      <img class="logo" src="smu.png" alt="SMU">
+    </a>
+    <ul>
+      <li><a href="#news">News</a></li>
+      <li><a href="#publications">Publications</a></li>
+      <li><a href="#talks">Talks</a></li>
+      <li><a href="#awards">Awards</a></li>
+      <li><a href="#services">Services</a></li>
+    </ul>
+  </div>
+</nav>
+
+<table style="width:100%;max-width:850px;border:0;border-spacing:0;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+<tr style="padding:0">
+<td style="padding:0">
+
+  <!-- ====== HEADER ====== -->
+  <table style="width:100%;border:0;border-spacing:0;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+    <tr style="padding:0">
+      <td style="padding:2.5%;width:63%;vertical-align:middle">
+        <p class="name" style="text-align:center;">
+          Yunbo Lyu<span class="cn">吕允博</span>
+        </p>
+        <p>
+          I'm a third-year Ph.D. candidate at
+          <a href="https://www.smu.edu.sg/">Singapore Management University</a>,
+          advised by <a href="http://www.mysmu.edu/faculty/davidlo/">Prof. David Lo</a>
+          (ACM, IEEE, and ASE Fellow).
+          My research interests lie in Software Engineering, Artificial Intelligence,
+          and Mining Software Repositories. I aim to build intelligent, usable, and
+          trustworthy AI4SE tools (e.g., AI Coding Assistants) by understanding what
+          users and developers really need and leveraging state-of-the-art techniques.
+        </p>
+        <p style="text-align:center">
+          <a href="mailto:yunbolyu@smu.edu.sg">Email</a> &nbsp;/&nbsp;
+          <a href="https://scholar.google.com/citations?user=OnSWwOwAAAAJ&amp;hl=en&amp;oi=ao">Google Scholar</a> &nbsp;/&nbsp;
+          <a href="https://dblp.org/pid/337/9471.html">DBLP</a> &nbsp;/&nbsp;
+          <a href="https://www.linkedin.com/in/yunbo-lyu-b6400824b/">LinkedIn</a> &nbsp;/&nbsp;
+          <a href="https://x.com/Ra1nbow99">Twitter</a> &nbsp;/&nbsp;
+          <a href="https://github.com/yunbolyu">Github</a>
+        </p>
+      </td>
+      <td style="padding:2.5%;width:37%;max-width:37%;text-align:center">
+        <div role="img" aria-label="profile photo" style="width:70%;aspect-ratio:1/1;margin:0 auto;border-radius:50%;background:url(yunbo_new.png) center 70% / auto 200% no-repeat;"></div>
+      </td>
     </tr>
+  </tbody></table>
+
+  <!-- ====== NEWS ====== -->
+  <table style="width:100%;border:0;border-spacing:0;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+    <tr>
+      <td style="padding:16px;width:100%;vertical-align:middle">
+        <h2 id="news">News</h2>
+        <ul class="news">
+          <li><span class="news-date">[2026.04]</span> Three papers accepted at ACL 2026, ISSTA 2026, and EASE 2026.</li>
+          <li><span class="news-date">[2026.02]</span> Our paper won the <span class="highlight">IEEE Computer Society TCSE Distinguished Paper Award</span> at SANER 2026.</li>
+          <li><span class="news-date">[2025.11]</span> Our paper won the <span class="highlight">ACM SIGSOFT Distinguished Paper Award</span> at ASE 2025.</li>
+          <li><span class="news-date">[2025.08]</span> One paper accepted in the Research Papers track of ASE 2025. See you in Seoul 🇰🇷.</li>
+          <li><span class="news-date">[2025.07]</span> One paper accepted in the Regular Papers track of ACM Multimedia 2025. See you in Dublin 🇮🇪.</li>
+        </ul>
+        <details class="news-more">
+          <summary></summary>
+          <ul class="news">
+            <li><span class="news-date">[2025.06]</span> Received the SMU PhD Research Excellence Award (Tier 1).</li>
+            <li><span class="news-date">[2025.04]</span> Two papers accepted at FSE 2025. See you in Trondheim 🇳🇴.</li>
+            <li><span class="news-date">[2024.11]</span> Passed the Ph.D. Qualifying Exam.</li>
+            <li><span class="news-date">[2024.07]</span> Received the SMU Presidential Doctoral Fellowship.</li>
+            <li><span class="news-date">[2024.05]</span> One paper accepted by <em>IEEE Transactions on Software Engineering</em>.</li>
+            <li><span class="news-date">[2022.12]</span> One paper accepted in the Technical Track of ICSE 2023.</li>
+          </ul>
+        </details>
+      </td>
+    </tr>
+  </tbody></table>
+
+  <!-- ====== PUBLICATIONS ====== -->
+  <table style="width:100%;border:0;border-spacing:0;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+    <tr>
+      <td style="padding:16px;width:100%;vertical-align:middle">
+        <h2 id="publications">Publications</h2>
+        <p class="legend"><sup>*</sup> equal contribution &nbsp;&middot;&nbsp; <sup>&dagger;</sup> corresponding author</p>
+        <ol class="pubs">
+
+          <li>
+            <span class="papertitle">&ldquo;My Productivity is Boosted, but &hellip;&rdquo; Demystifying Users' Perception on AI Coding Assistants</span><br>
+            <span class="me">Yunbo Lyu</span>, Zhou Yang, Jieke Shi, Jianming Chang, Yue Liu, David Lo<br>
+            <em>The 40th IEEE/ACM International Conference on Automated Software Engineering (ASE)</em>, 2025<br>
+            <span class="award">🏆 ACM SIGSOFT Distinguished Paper Award</span>
+          </li>
+
+          <li>
+            <span class="papertitle">Do Existing Testing Tools Really Uncover Gender Bias in Text-to-Image Models?</span><br>
+            <span class="me">Yunbo Lyu</span>, Zhou Yang, Yuqing Niu, Jing Jiang, David Lo<br>
+            <em>The 33rd ACM International Conference on Multimedia (MM)</em>, 2025
+          </li>
+
+          <li>
+            <span class="papertitle">Evaluating SZZ Implementations: An Empirical Study on the Linux Kernel</span><br>
+            <span class="me">Yunbo Lyu</span>, Hong Jin Kang, Ratnadira Widyasari, Julia Lawall, David Lo<br>
+            <em>IEEE Transactions on Software Engineering (TSE)</em>, 2024
+          </li>
+
+          <li>
+            <span class="papertitle">CHRONOS: Time-Aware Zero-Shot Identification of Libraries from Vulnerability Reports</span><br>
+            <span class="me">Yunbo Lyu</span><sup>*</sup>, Thanh Le-Cong<sup>*</sup>, Hong Jin Kang, Ratnadira Widyasari, Zhipeng Zhao, Xuan-Bach D. Le, Ming Li, David Lo<br>
+            <em>The 45th International Conference on Software Engineering (ICSE)</em>, 2023
+          </li>
+
+          <li>
+            <span class="papertitle">SecureVibeBench: Benchmarking Secure Vibe Coding of AI Agents via Reconstructing Vulnerability-Introducing Scenarios</span><br>
+            Junkai Chen, Huihui Huang, <span class="me">Yunbo Lyu</span>, Junwen An, Jieke Shi, Chengran Yang, Ting Zhang, Haoye Tian, Yikun Li, Zhenhao Li, Xin Zhou, Xing Hu, David Lo<br>
+            <em>The 64th Annual Meeting of the Association for Computational Linguistics (ACL), Main Conference</em>, 2026
+          </li>
+
+          <li>
+            <span class="papertitle">Hidden Licensing Risks in the LLMware Ecosystem</span><br>
+            Bo Wang, Yueyang Chen, Jieke Shi, Minghui Li, <span class="me">Yunbo Lyu</span>, Yinan Wu, Youfang Lin, Zhou Yang<br>
+            <em>The 35th ACM SIGSOFT International Symposium on Software Testing and Analysis (ISSTA)</em>, 2026
+          </li>
+
+          <li>
+            <span class="papertitle">Industry Practitioners' Perspectives on AI Model Quality: Perceptions, Challenges, and Solutions</span><br>
+            Chenyu Wang, Zhou Yang, <span class="me">Yunbo Lyu</span><sup>&dagger;</sup>, Ze Shi Li, Daniela Damian, David Lo<br>
+            <em>The 30th International Conference on Evaluation and Assessment in Software Engineering (EASE)</em>, 2026
+          </li>
+
+          <li>
+            <span class="papertitle">What You Trust Is Insecure: Demystifying How Developers (Mis)Use Trusted Execution Environments in Practice</span><br>
+            Yuqing Niu, Jieke Shi, Ruidong Han, Ye Liu, Chengyan Ma, <span class="me">Yunbo Lyu</span>, David Lo<br>
+            <em>The 33rd IEEE International Conference on Software Analysis, Evolution, and Reengineering (SANER)</em>, 2026<br>
+            <span class="award">🏆 IEEE Computer Society TCSE Distinguished Paper Award</span>
+          </li>
+
+          <li>
+            <span class="papertitle">APIDocBooster: An Extract-Then-Abstract Framework Leveraging Large Language Models for Augmenting API Documentation</span><br>
+            Chengran Yang, Jiakun Liu, Bowen Xu, Christoph Treude, <span class="me">Yunbo Lyu</span>, Junda He, Ming Li, David Lo<br>
+            <em>The 41st IEEE International Conference on Software Maintenance and Evolution (ICSME)</em>, 2025
+          </li>
+
+          <li>
+            <span class="papertitle">A Functional Software Reference Architecture for LLM-Integrated Systems</span><br>
+            Alessio Bucaioni, Martin Weyssow, Junda He, <span class="me">Yunbo Lyu</span>, David Lo<br>
+            <em>The 22nd IEEE International Conference on Software Architecture (ICSA), New and Emerging Ideas Track</em>, 2025
+          </li>
+
+          <li>
+            <span class="papertitle">Artificial Intelligence for Software Architecture: Literature Review and the Road Ahead</span><br>
+            Alessio Bucaioni, Martin Weyssow, Junda He, <span class="me">Yunbo Lyu</span>, David Lo<br>
+            <em>ACM International Conference on the Foundations of Software Engineering (FSE), SE2030 Workshop</em>, 2025
+          </li>
+
+        </ol>
+
+        <h3>Preprints / Under Review</h3>
+        <ol class="pubs">
+
+          <li>
+            <span class="papertitle">AgentSZZ: Teaching the LLM Agent to Play Detective with Bug-Inducing Commits</span><br>
+            <span class="me">Yunbo Lyu</span>, Jieke Shi, Hong Jin Kang, Ratnadira Widyasari, Junda He, Yuqing Niu, Chengran Yang, Junkai Chen, Zhou Yang, Julia Lawall, David Lo<br>
+            <em>Under review</em>, 2026
+          </li>
+
+          <li>
+            <span class="papertitle">&ldquo;Your AI, My Shell&rdquo;: Demystifying Prompt Injection Attacks on Agentic AI Coding Editors</span><br>
+            Yue Liu, Yanjie Zhao, <span class="me">Yunbo Lyu</span><sup>&dagger;</sup>, Ting Zhang, Haoyu Wang, David Lo<br>
+            <em>Under review at IEEE Transactions on Software Engineering (TSE)</em>, 2026
+          </li>
+
+          <!-- <li>
+            <span class="papertitle">Global-SZZ: Identifying Vulnerability-Affected Versions via Cross-File Dependency-Aware Commit Analysis</span><br>
+            Qiyuan Yu<sup>*</sup>, <span class="me">Yunbo Lyu</span><sup>*</sup>, Xiaobing Sun, Zhenlei Ye, Sicong Cao, Zhou Yang, Julia Lawall, David Lo<br>
+            <em>Under review</em>, 2026
+          </li> -->
+
+          <!-- <li>
+            <span class="papertitle">&ldquo;We Must Have Missed This Comment&rdquo;: Detecting and Repairing Stale Function References in Linux Kernel Comments</span><br>
+            Kexin Sun, <span class="me">Yunbo Lyu</span>, Xutong Ma, Hongyu Kuang, Ratnadira Widyasari, He Zhang, Xiaoxing Ma, Julia Lawall, David Lo<br>
+            <em>Under review</em>, 2026
+          </li> -->
+
+          <li>
+            <span class="papertitle">SLICEMATE: Accurate and Scalable Static Program Slicing via LLM-Powered Agents</span><br>
+            Jianming Chang, Jieke Shi, <span class="me">Yunbo Lyu</span>, Xin Zhou, Lulu Wang, Zhou Yang, Bixin Li, David Lo<br>
+            <em>Under review</em>, 2026
+          </li>
+
+          <li>
+            <span class="papertitle">LessLeak-Bench: A First Investigation of Data Leakage in LLMs Across 83 Software Engineering Benchmarks</span><br>
+            Xin Zhou, Martin Weyssow, Ratnadira Widyasari, Ting Zhang, Junda He, <span class="me">Yunbo Lyu</span>, Jianming Chang, Beiqi Zhang, Dan Huang, David Lo<br>
+            <em>Under review</em>, 2026
+          </li>
+
+          <li>
+            <span class="papertitle">Active Learning-based Input Selection for Fuzzing Deep Learning Libraries</span><br>
+            Hong Jin Kang, <span class="me">Yunbo Lyu</span>, Pattarakrit Rattanukul, Stefanus Agus Haryono, Truong Giang Nguyen, Chaiyong Ragkhitwetsagul, Corina Pasareanu, David Lo<br>
+            <em>Preprint</em>, 2024. <em>This work found vulnerabilities leading to the assignment of 23 CVEs.</em>
+          </li>
+
+          <li>
+            <span class="papertitle">Robustness, Security, Privacy, Explainability, Efficiency, and Usability of Large Language Models for Code</span><br>
+            Zhou Yang, Zhensu Sun, <span class="me">Yunbo Lyu</span>, Terry Zhuo Yue, Premkumar Devanbu, David Lo<br>
+            <em>Preprint</em>, 2024
+          </li>
+
+        </ol>
+      </td>
+    </tr>
+  </tbody></table>
+
+  <!-- ====== INVITED TALKS ====== -->
+  <table style="width:100%;border:0;border-spacing:0;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+    <tr>
+      <td style="padding:16px;width:100%;vertical-align:middle">
+        <h2 id="talks">Invited Talks</h2>
+        <ul class="plain">
+          <li>
+            <strong>Nov 2025</strong> &mdash; University College London (host: Federica Sarro).
+            <em>Towards Trustworthy Generative AI: Insights from Text-to-Image Models and AI Coding Assistants.</em>
+            <a href="/talk/ucl-talk-2025.pdf">[slides]</a>
+          </li>
+          <li>
+            <strong>Sep 2025</strong> &mdash; National University of Singapore, TEST Lab (host: Manuel Rigger).
+            <em>Towards Trustworthy In-IDE AI Coding Assistants.</em>
+            <a href="/talk/nus-talk-2025.pdf">[slides]</a>
+          </li>
+          <li>
+            <strong>Jul 2025</strong> &mdash; Yangzhou University, Guest Lecture (host: Zhou Yang).
+            <em>Users' Perceptions of AI Coding Assistants.</em>
+            <a href="/talk/yzu-talk-2025.pdf">[slides]</a>
+          </li>
+        </ul>
+      </td>
+    </tr>
+  </tbody></table>
+
+  <!-- ====== AWARDS ====== -->
+  <table style="width:100%;border:0;border-spacing:0;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+    <tr>
+      <td style="padding:16px;width:100%;vertical-align:middle">
+        <h2 id="awards">Awards</h2>
+        <ul class="plain">
+          <li>IEEE Computer Society TCSE Distinguished Paper Award, SANER 2026.</li>
+          <li>ACM SIGSOFT Distinguished Paper Award, ASE 2025.</li>
+          <li>PhD Research Excellence Award (Tier 1), Singapore Management University, 2025.</li>
+          <li>Presidential Doctoral Fellowship, Singapore Management University, 2024.</li>
+          <li>Outstanding Undergraduate Thesis Award (Top 0.3%), Department of Education of Jiangsu Province, China, 2022.</li>
+        </ul>
+      </td>
+    </tr>
+  </tbody></table>
+
+  <!-- ====== SERVICES ====== -->
+  <table style="width:100%;border:0;border-spacing:0;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+    <tr>
+      <td style="padding:16px;width:100%;vertical-align:middle">
+        <h2 id="services">Services</h2>
+
+        <h3>Journal Reviewer</h3>
+        <ul class="svc">
+          <li>IEEE Transactions on Software Engineering (TSE) (2025, 2026)</li>
+          <li>ACM Transactions on Software Engineering and Methodology (TOSEM) (2026)</li>
+          <li>Empirical Software Engineering (EMSE) (2026)</li>
+          <li>Neurocomputing (2023, 2025)</li>
+        </ul>
+
+        <h3>Program Committee</h3>
+        <ul class="svc">
+          <li>AIware (2026)</li>
+          <li>ICSE (2025, 2026) &mdash; Artifact Evaluation</li>
+          <li>EASE (2026) &mdash; AI Models / Data Track</li>
+          <li>QUATIC (2025)</li>
+          <li>MSR (2025, 2026) &mdash; Junior PC</li>
+        </ul>
+
+        <h3>External Reviewer</h3>
+        <ul class="svc">
+          <li>ICSE, FSE, ASE, ISSTA, EMSE, ACM MM, etc.</li>
+        </ul>
+      </td>
+    </tr>
+  </tbody></table>
+
+  <!-- ====== FOOTER ====== -->
+  <table style="width:100%;border:0;border-spacing:0;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+    <tr>
+      <td style="padding:20px 16px 30px;text-align:right;font-size:12px;color:#999">
+        Last updated: April 2026 &middot; Design based on <a href="https://jonbarron.info/">Jon Barron</a>.
+      </td>
+    </tr>
+  </tbody></table>
+
+</td>
+</tr>
+</tbody>
 </table>
-
-<hr>
-<p> My research interests mainly include <i>software engineering, artificial intelligence</i> and <i>mining software repositories</i>.
-</p>
-<p>
-    Currently, I am a third-year PhD candidate at the
-    <a target="_blank" href="https://soarsmu.github.io/"> SOAR (SOftware Analytics Research) Group</a>,
-    <a target="_blank" href="https://scis.smu.edu.sg/">School of Computing and Information Systems</a>, Singapore
-    Management University. I am very fortunate to be advised by <a href="http://www.mysmu.edu/faculty/davidlo/">Prof.
-        David
-        Lo</a> and to collaborate and learn from many brilliant and talented researchers.
-</p>
-
-<!-- <p> I received my B.Sc. degree from <a target="_blank" href="https://xxgcxy.yzu.edu.cn/">School of Information
-        Engineering</a>, Yangzhou University, China, in 2021. In my undergraduate, my research interest was
-    in game theory and game description language.
-</p> -->
-
-<h2>News</h2>
-<hr>
-<ul>
-    <li> <b>
-        <font color="#FF0000">[2026.04]</font>
-    </b> Three papers have been accepted at ACL 2026, ISSTA 2026, and EASE 2026!</li>
-    <li> <b>
-        <font color="#FF0000">[2026.02]</font>
-    </b> Our paper won the <b>IEEE Computer Society TCSE Distinguished Paper Award</b> at SANER 2026! 🏆</li>
-    <li> <b>
-        <font color="#FF0000">[2025.11]</font>
-    </b> Our paper won the <b>ACM SIGSOFT Distinguished Paper award</b> at ASE 2025! 🏆</li>
-    <li> <b>
-        <font color="#FF0000">[2025.08]</font>
-    </b> One paper is accepted by <b>Research Papers of ASE 2025</b>! See you in Seoul 🇰🇷</li>
-    <li> <b>
-        <font color="#FF0000">[2025.07]</font>
-    </b> One paper is accepted by <b>Regular Papers of Multimedia 2025</b>! See you in Dublin 🇮🇪</li>
-    <li> <b>
-        <font color="#FF0000">[2025.06]</font>
-    </b> I'm honored to receive the <b>SMU PhD Research Excellence Award (Tier 1)</b>! </li>
-    <li> <b>
-        <font color="#FF0000">[2025.06]</font>
-    </b> One paper is accepted by <b>Research Papers Track of ICSME 2025</b>! </li>
-    <li> <b>
-        <font color="#FF0000">[2025.04]</font>
-    </b> Two papers are accepted by <b>FSE 2025</b>! See you in Trondheim 🇳🇴 </li>
-    <!-- <li> <b>
-        <font color="#FF0000">[2025.01]</font>
-    </b> One paper is accepted by <b>New and Emerging Ideas Track of ICSA 2025</b>! </li> -->
-    <li> <b>
-        <font color="#FF0000">[2024.11]</font>
-    </b> I pass my <b>Qualifying Exam</b>! </li>
-    <li> <b>
-        <font color="#FF0000">[2024.07]</font>
-    </b> I'm honored to win the <b>SMU Presidential Fellowship Award</b>! </li>
-    <li> <b>
-        <font color="#FF0000">[2024.05]</font>
-    </b> One paper is accepted by <b> IEEE Transactions on Software Engineering</b>! </li>
-    <!-- <li> <b>
-            <font color="#FF0000">[2023.04]</font>
-        </b> I have a <a target="_blank" href="https://yunbolyu.github.io/">website</a> now!</li> -->
-    <li> <b>
-            <font color="#FF0000">[2022.12]</font>
-        </b> One paper is accepted by the <b> Technical Track of ICSE 2023</b>! </li>
-</ul>
-
-<h2>Services</h2>
-<hr>
-<!-- <p><b>Reviewing</b>: </p> -->
-<!-- <ul> -->
-Reviewer, IEEE Transactions on Software Engineering, 2025, 2026<br>
-Reviewer, ACM Transactions on Software Engineering and Methodology, 2026<br>
-Reviewer, Empirical Software Engineering, 2026<br>
-PC Member, AIware 2026<br>
-Junior PC Member, MSR 2025, 2026<br>
-PC Member, ICSE 2025, 2026 (Artifact Evaluation)<br>
-PC Member, EASE 2026 (AI Models / Data)<br>
-PC Member, QUATIC 2025<br>
-Reviewer, Neurocomputing Journal, 2023-Now<br>
-External Reviewer for ICSE, FSE, ASE, ISSTA, EMSE, MM, etc.
-    <!-- <li>Sub-reviewer of QRS 2023</li> -->
-<!-- </ul> -->
-<hr>
-
-<h2>Awards</h2>
-<hr>
-<!-- 2026 SMU Dean's List
-2025, 2026 SMU's PhD Research Excellence Award (Tier 1) -->
-IEEE Computer Society TCSE Distinguished Paper Award, SANER 2026<br>
-ACM SIGSOFT Distinguished Paper award, ASE 2025<br>
-2025 SMU's PhD Research Excellence Award (Tier 1)<br>
-2024 SMU's Presidential Doctoral Fellowship<br>
-2022 Outstanding Undergraduate Thesis (Top 0.03% in province), Jiangsu Province, China
-<hr>
-
-<h2>Invited Talks</h2>
-<hr>
-<ul>
-    <li>
-    <strong>Nov 5, 2025:</strong> University College London (Invited by Federica Sarro) <br>
-    <em>Talk: "Towards Trustworthy Generative AI: Insights from Text-to-Image Models and AI Coding Assistants"</em> <a href="/talk/ucl-talk-2025.pdf">[Slides]</a>
-  </li>
-  <li>
-    <strong>Sep 30, 2025:</strong> National University of Singapore, TEST Lab (Invited by Manuel Rigger) <br>
-    <em>Talk: "Towards Trustworthy In-IDE AI Coding Assistants"</em> <a href="/talk/nus-talk-2025.pdf">[Slides]</a>
-  </li>
-  <li>
-    <strong>Jul 17, 2025:</strong> Yangzhou University, Guest Lecture (Invited by Zhou Yang) <br>
-    <em>Talk: "Users' Perceptions of AI Coding Assistants"</em> <a href="/talk/yzu-talk-2025.pdf">[Slides]</a>
-  </li>
-</ul>
-<hr>
-
-
-
-<!-- <script type="text/javascript"
-    src="//rf.revolvermaps.com/0/0/6.js?i=5yc9qplmw3v&amp;m=7&amp;c=e63100&amp;cr1=ffffff&amp;f=arial&amp;l=0&amp;bv=90&amp;lx=-420&amp;ly=420&amp;hi=20&amp;he=7&amp;hc=a8ddff&amp;rs=80"
-    async="async"></script> -->
-
-<p style="text-align:center"><i>
-        <font size="2" face="Times New Roman"> Last Modified: 21 April, 2026</font>
-    </i></p>
-
-{{ post.excerpt }}
+</body>
+</html>
