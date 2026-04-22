@@ -17,7 +17,10 @@
       font-family: 'Lato', Verdana, Helvetica, sans-serif;
       font-size: 14px;
     }
+    html, body { overflow-x: clip; }
     body { background: #fff; color: #000; margin: 0; counter-reset: pub; }
+    *, *::before, *::after { box-sizing: border-box; }
+    img { max-width: 100%; height: auto; }
 
     strong {
       font-family: 'Lato', Verdana, Helvetica, sans-serif;
@@ -127,14 +130,28 @@
       border-bottom: 1px solid #e5e5e5;
     }
     nav.topbar .inner {
-      max-width: 850px;
+      max-width: 900px;
       margin: 0 auto;
       padding: 6px 20px;
       display: flex;
       align-items: center;
       justify-content: space-between;
+      gap: 12px;
     }
+    nav.topbar .brand {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    nav.topbar .logo-link { line-height: 0; }
     nav.topbar img.logo { height: 28px; width: auto; display: block; }
+    nav.topbar .name-link {
+      font-weight: 600;
+      color: #222;
+      font-size: 15px;
+      white-space: nowrap;
+    }
+    nav.topbar .name-link:hover { color: #f09228; }
     nav.topbar ul {
       list-style: none;
       margin: 0;
@@ -147,13 +164,23 @@
     nav.topbar ul a:hover { color: #f09228; }
 
     /* give anchored sections some offset so sticky nav doesn't cover headings */
-    h2[id] { scroll-margin-top: 56px; }
+    h2[id] { scroll-margin-top: 72px; }
 
     @media (max-width: 640px) {
+      /* prevent tables from growing beyond viewport */
+      table { table-layout: fixed !important; width: 100% !important; }
+      p, li, td { overflow-wrap: break-word; word-wrap: break-word; }
+
       /* tighter nav: smaller gaps, allow wrap if really narrow */
-      nav.topbar .inner { padding: 6px 12px; gap: 10px; }
-      nav.topbar img.logo { height: 22px; }
-      nav.topbar ul { gap: 14px; font-size: 13px; flex-wrap: wrap; justify-content: flex-end; }
+      nav.topbar .inner { padding: 6px 10px; gap: 8px; max-width: 100%; }
+      nav.topbar img.logo { height: 20px; }
+      nav.topbar .name-link { font-size: 13px; }
+      nav.topbar ul { gap: 10px; font-size: 12px; flex-wrap: wrap; justify-content: flex-end; }
+
+      /* on very narrow phones, hide the center name to make room */
+      @media (max-width: 420px) {
+        nav.topbar .name-link { display: none; }
+      }
 
       /* header: stack photo above bio, shrink photo */
       table td[style*="width:63%"],
@@ -178,6 +205,9 @@
       /* pub number gap */
       h2 { font-size: 20px; }
       h3 { font-size: 16px; }
+
+      /* nav may wrap onto 2 lines on narrow phones — give more anchor offset */
+      h2[id] { scroll-margin-top: 100px; }
     }
   </style>
 </head>
@@ -186,9 +216,12 @@
 
 <nav class="topbar">
   <div class="inner">
-    <a href="https://www.smu.edu.sg/" target="_blank" rel="noopener">
-      <img class="logo" src="smu.png" alt="SMU">
-    </a>
+    <div class="brand">
+      <a class="logo-link" href="https://www.smu.edu.sg/" target="_blank" rel="noopener">
+        <img class="logo" src="smu.png" alt="SMU">
+      </a>
+      <a class="name-link" href="#top">Yunbo Lyu</a>
+    </div>
     <ul>
       <li><a href="#news">News</a></li>
       <li><a href="#publications">Publications</a></li>
@@ -199,7 +232,9 @@
   </div>
 </nav>
 
-<table style="width:100%;max-width:850px;border:0;border-spacing:0;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+<a id="top"></a>
+
+<table style="width:100%;max-width:900px;border:0;border-spacing:0;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 <tr style="padding:0">
 <td style="padding:0">
 
@@ -215,10 +250,8 @@
           <a href="https://www.smu.edu.sg/">Singapore Management University</a>,
           advised by <a href="http://www.mysmu.edu/faculty/davidlo/">Prof. David Lo</a>
           (ACM, IEEE, and ASE Fellow).
-          My research interests lie in Software Engineering, Artificial Intelligence,
-          and Mining Software Repositories. I aim to build intelligent, usable, and
-          trustworthy AI4SE tools (e.g., AI Coding Assistants) by understanding what
-          users and developers really need and leveraging state-of-the-art techniques.
+          My research takes a user- and developer-centered view of AI4SE tools (e.g., AI coding assistants): through empirical studies, I investigate what users really need from these tools and what challenges developers face when building them — and then draw on state-of-the-art techniques to address the gaps I find. 
+          Broadly, my work spans software engineering, AI, and mining software repositories.
         </p>
         <p style="text-align:center">
           <a href="mailto:yunbolyu@smu.edu.sg">Email</a> &nbsp;/&nbsp;
@@ -230,7 +263,7 @@
         </p>
       </td>
       <td style="padding:2.5%;width:37%;max-width:37%;text-align:center">
-        <div role="img" aria-label="profile photo" style="width:70%;aspect-ratio:1/1;margin:0 auto;border-radius:50%;background:url(yunbo_new.png) center 70% / auto 200% no-repeat;"></div>
+        <div role="img" aria-label="profile photo" style="width:55%;aspect-ratio:1/1;margin:0 auto;border-radius:12%;background:url(yunbo_new.png) center 70% / auto 200% no-repeat;"></div>
       </td>
     </tr>
   </tbody></table>
